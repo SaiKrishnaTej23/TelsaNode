@@ -1,2 +1,0 @@
-# TelsaNode
-Test
