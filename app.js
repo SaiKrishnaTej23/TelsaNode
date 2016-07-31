@@ -9,8 +9,6 @@ var builder = require('botbuilder');
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
-//process.env.MICROSOFT_APP_ID = '782734ec-8a0a-472d-ad91-6d6e3b5a7eef';
-//process.env.MICROSOFT_APP_PASSWORD = 'u4w39TPUThKxGd9KvbPzDji';
 }); 
   
 // Create chat bot
